@@ -106,7 +106,7 @@
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>Eurecat Technological Center of Catalonia</span>
+            <span class="author-block"><sup>1</sup>Eurecat Technology Center of Catalonia</span>
             <span class="author-block"><sup>2</sup>Polytechnic University of Catalonia</span>
           </div>
 
@@ -115,25 +115,24 @@
               <!-- PDF Link. -->
               <span class="link-block">
                 <a href="https://arxiv.org/pdf/2503.17703"
-                  <span class="external-link button is-normal is-rounded is-dark">
+                   class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                           <i class="fas fa-file-pdf"></i>
                       </span>
                       <span>Paper</span>
-                  </span>
                 </a>
               </span>
               <!-- Code Link. -->
-              <span class="link-block"></span>
+              <!-- <span class="link-block"></span> -->
                 <!-- <a href="https://arxiv.org/pdf/2011.12948" -->
-                  <span class="external-link button is-normal is-rounded is-dark">
+                  <!-- <span class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                           <i class="fab fa-github"></i>
                       </span>
                       <span>Code (soon)</span>
-                  </span>
+                  </span> -->
                 <!-- </a> -->
-              </span>
+              <!-- </span> -->
               <!-- ArXiv Link. -->
               <span class="link-block">
                 <a href="https://arxiv.org/abs/2503.17703"
@@ -157,6 +156,20 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video id="teaser" autoplay controls muted loop playsinline height="100%">
+        <source src="./static/videos/RAIDER_handover_demo.mp4"
+                type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        RAIDER LLM agent dynamically detects, explains and resolves issues for action execution.
+      </h2>
     </div>
   </div>
 </section>
@@ -250,7 +263,7 @@
           offer greater flexibility, they struggle to ground the extracted information to tangible constraints, limiting their 
           performance in embodied systems. To address this gap, we propose RAIDER, a novel agent integrating LLMs with grounded 
           tools for efficient and selective information gathering. RAIDER identifies and explains issues through a unique "Ground, 
-          Ask\&Answer, Issue" procedure, dynamically generating context-aware precondition questions and calling appropriate tools 
+          Ask&Answer, Issue" procedure, dynamically generating context-aware precondition questions and calling appropriate tools 
           to resolve them, all managed through a regulated flow incorporating self-correction mechanisms. Our results outperform 
           existing methods reliant on predefined action models, full scene descriptions or standalone trained models. Additionally, 
           the system's explanations substantially improve the success of recovery plans, which may involve human interactions where 
@@ -283,8 +296,8 @@
     <pre><code>@article{izquierdo2025raider,
   author    = {Izquierdo-Badiola, Silvia and Rizzo, Carlos and Alenyà, Guillem},
   title     = {RAIDER: Tool-Equipped LLM Agent for Robotic Action Issue Detection, Explanation and Recovery},
-  journal   = {Submitted},
-  year      = {2025},
+  journal   = {arXiv 2503.17703},
+  year      = {2025}
 }</code></pre>
   </div>
 </section>
@@ -292,7 +305,7 @@
 
 <footer class="footer">
   <div class="container">
-    <div class="content has-text-centered">
+    <!-- <div class="content has-text-centered">
       <a class="icon-link"
          href="./static/videos/nerfies_paper.pdf">
         <i class="fas fa-file-pdf"></i>
@@ -300,7 +313,7 @@
       <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
         <i class="fab fa-github"></i>
       </a>
-    </div>
+    </div> -->
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
@@ -313,8 +326,6 @@
             This means you are free to borrow the <a
               href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
             we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
           </p>
         </div>
       </div>

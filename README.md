@@ -1,14 +1,11 @@
-# Nerfies
+# RAIDER
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
-
-If you find Nerfies useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@article{izquierdo2025raider,
+  author    = {Izquierdo-Badiola, Silvia and Rizzo, Carlos and Alenyà, Guillem},
+  title     = {RAIDER: Tool-Equipped LLM Agent for Robotic Action Issue Detection, Explanation and Recovery},
+  journal   = {arXiv 2503.17703},
+  year      = {2025}
 }
 ```
 
