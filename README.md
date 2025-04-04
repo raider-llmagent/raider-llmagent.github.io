@@ -1,10 +1,8 @@
 # RAIDER
 
 ```
-@article{izquierdo2025raider,
-  author    = {Izquierdo-Badiola, Silvia and Rizzo, Carlos and Alenyà, Guillem},
+@article{2025raider,
   title     = {RAIDER: Tool-Equipped LLM Agent for Robotic Action Issue Detection, Explanation and Recovery},
-  journal   = {arXiv 2503.17703},
   year      = {2025}
 }
 ```
