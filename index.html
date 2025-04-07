@@ -114,14 +114,13 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <!-- <a href="https://arxiv.org/pdf/2503.17703" -->
-                <span class="external-link button is-normal is-rounded is-dark">
+                <a href="https://arxiv.org/pdf/2503.17703"
+                   class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                           <i class="fas fa-file-pdf"></i>
                       </span>
-                      <span>Paper (upon acceptance)</span>
-                <!-- </a> -->
-                </span>
+                      <span>Paper</span>
+                </a>
               </span>
               <!-- Code Link. -->
               <!-- <span class="link-block"></span> -->
@@ -136,14 +135,13 @@
               <!-- </span> -->
               <!-- ArXiv Link. -->
               <span class="link-block">
-                <!-- <a href="https://arxiv.org/abs/2503.17703" -->
-                <span class="external-link button is-normal is-rounded is-dark">
+                <a href="https://arxiv.org/abs/2503.17703"
+                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
                   </span>
-                  <span>arXiv (upon acceptance)</span>
-                <!-- </a> -->
-                </span>
+                  <span>arXiv</span>
+                </a>
               </span>
               <!-- Video Link. -->
               <!-- <span class="link-block">
@@ -165,19 +163,23 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <!-- <video id="teaser" autoplay controls muted loop playsinline height="100%">
+      <video id="teaser" autoplay controls muted loop playsinline height="100%">
         <source src="./static/videos/RAIDER_handover_demo.mp4"
                 type="video/mp4">
-      </video> -->
-      <!-- <h2 class="subtitle has-text-centered">
-        RAIDER LLM agent dynamically detects, explains and resolves issues for action execution.
-      </h2> -->
+      </video>
       <h2 class="subtitle has-text-centered">
-        This website will be populated upon paper's acceptance. Please check arXiv version for current website link.
+        RAIDER LLM agent dynamically detects, explains and resolves issues for action execution.
       </h2>
     </div>
   </div>
 </section>
+
+<!-- System diagram image (same width as video) -->
+<div class="container is-max-desktop">
+  <figure class="image">
+    <img src="./static/images/RAIDER_intro_examples.png" alt="RAIDER system overview" style="width: 100%;">
+  </figure>
+</div>
 
 <!-- <section class="hero teaser">
   <div class="container is-max-desktop">
@@ -280,6 +282,36 @@
     </div>
     <!--/ Abstract. -->
 
+    <!-- Handover detailed video. -->
+    <section class="section">
+      <div class="columns is-centered has-text-centered">
+        <div class="container is-max-desktop">
+          <h2 class="title is-4">Assistive Scenario: Detailed Demo in a Handover</h2>
+          <p class="content has-text-justified">
+            This video shows the details of the iterative flow between the LLM and the tools, regulated through the program flow manager, in a handover. Before executing the instructed action, the agent analyses the current context, decides what information is needed, and selects the appropriate tools to query. In this case, the issue identified is that the user is not looking at the robot, triggering a replan involving an interaction with the human to resolve the issue.
+          </p>
+          <video id="teaser" class="mt-4" autoplay muted loop controls playsinline width="100%">
+            <source src="./static/videos/RAIDER_handover_notlooking_slowdetailed.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </section>
+    <!--/ Handover detailed video. -->
+
+    <!-- Detailed examples. -->
+    <section class="section">
+      <div class="columns is-centered has-text-centered">
+        <div class="container is-max-desktop">
+          <h2 class="title is-4">Household Simulator: Detailed Examples</h2>
+          <figure class="image">
+            <img src="./static/images/RAIDER_detail_examples.png" alt="RAIDER detailed examples" style="width: 100%;">
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!--/ Handover detailed video. -->
+
     <!-- Paper video. -->
     <!-- <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -298,11 +330,10 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{2025raider,
-  <!-- author    = {Izquierdo-Badiola, Silvia and Rizzo, Carlos and Alenyà, Guillem}, -->
+    <pre><code>@article{izquierdo2025raider,
+  author    = {Izquierdo-Badiola, Silvia and Rizzo, Carlos and Alenyà, Guillem},
   title     = {RAIDER: Tool-Equipped LLM Agent for Robotic Action Issue Detection, Explanation and Recovery},
-  <!-- journal   = {arXiv 2503.17703}, -->
-  journal   = {Submitted},
+  journal   = {arXiv 2503.17703},
   year      = {2025}
 }</code></pre>
   </div>
